@@ -1,4 +1,5 @@
-const historicDatesForSkiing = [
+import React from 'react'
+const skiingTimeline = [
       {
           year: 1879,
           event: "Ski Manufacturing Begins"
@@ -37,4 +38,4 @@ const historicDatesForSkiing = [
       }
     ]
 
-    export default historicDatesForSkiing
+    export default skiingTimeline
