@@ -8,7 +8,7 @@ const TimelineDot = ({position,txt}) =>
 
     <text y={115}
           x={-95}
-          transform="rotate(-45)"
+          transform="rotate(-48)"
           style={{fontSize:'10px'}}>{txt}</text>
   </g>
 

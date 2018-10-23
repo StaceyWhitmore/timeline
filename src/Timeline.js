@@ -18,8 +18,8 @@ class Timeline extends Component {
   //.scale() can be used to interpolate the pixel value for any year on the timeline
   this.scale = d3.time.scale().domain(times).range(range)
   this.state = {data,times,range}
-  }//close constructor()
-
+  }
+  
 render() {
   const { data }  = this.state
   const { scale } = this
@@ -36,9 +36,6 @@ render() {
           )}
         </Canvas>
     </div>
-  )}//close render()
-
-
-}//close <Timeline />
-
+  )}
+}
 export default Timeline
